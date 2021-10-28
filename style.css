@@ -1,3 +1,4 @@
+/* common */
 html, body{
     margin:0;
     padding:0;
@@ -10,14 +11,16 @@ a{
     text-decoration: none;
 }
 
+/* index css */
+
 #main{
-    background-image: url(main.jpg);
+    background-image: url(https://nine57.github.io/MyPage-NINE.html/main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100vw;
     height: 100vh;
-    font-family: 'Lobster', cursive;
+    font-family: 'Architects Daughter', cursive;
 }
 #contents{
     position: absolute;
@@ -26,6 +29,7 @@ a{
     width: 100%;
     text-align: center;
 }
+
 /* full */
 #contents h1{
     color: rgba(160, 252, 255, 0.5);
@@ -53,7 +57,7 @@ a{
     #contents p{
         font-size: 30px;
     }
-    #top-code {
+    #top-code{
         font-size: 17px;
         padding-top: 20px;
         padding-left: 20px;
@@ -69,9 +73,118 @@ a{
     #contents p{
         font-size: 25px;
     }
-    #top-code {
+    #top-code{
         font-size: 15px;
         padding-top: 20px;
         padding-left: 20px;
     }
+}
+
+
+/* about me css */
+
+#main2{
+    background-image: url(https://raw.githubusercontent.com/nine57/MyPage-NINE.html/main/about%20page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#top-code2{
+    color: rgba(179, 231, 255, 0.5);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#top-list2{
+    color: rgba(179, 231, 255, 0.5);
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: right;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+#top-list2 a{
+    padding-right:50px;
+}
+#para{
+    color:rgba(204, 239, 255, 0.85);
+    padding-top: 90px;
+    padding-left: 50px;
+}
+#para p{
+    padding-top: 50px;
+    font-family: 'Stylish', sans-serif;
+    font-size: 28px;
+}
+
+/* contact me css */
+
+#main3{
+    background-image: url(https://raw.githubusercontent.com/nine57/MyPage-NINE.html/main/contact%20page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#top-code3{
+    color: rgba(151, 123, 44, 0.85);
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#top-list3{
+    color: rgba(151, 123, 44, 0.85);
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: right;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+#top-list3 a{
+    padding-right:50px;
+}
+
+#contact{
+    color: rgba(143, 143, 143, 0.85);
+    padding-top: 100px;
+    padding-left: 400px;
+}
+#contact p{
+    font-size: 40px;
+}
+#contact ul{
+    list-style-type: none;
+    font-size: 30px;
+}
+#contact li{
+    padding-bottom:20px;
+}
+#media{
+    padding-left: 80px;
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+#address{
+    padding-left: 0px;
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
 }

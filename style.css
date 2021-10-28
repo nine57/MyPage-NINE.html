@@ -25,7 +25,6 @@ a{
     transform: translateY(-50%);
     width: 100%;
     text-align: center;
-    cursor: :pointer onclick="location.href='https://nine57.github.io/MyPage-NINE.html/info.html'"
 }
 /* full */
 #contents h1{

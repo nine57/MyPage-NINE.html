@@ -3,24 +3,40 @@
 <head>
     <title>00001001 - Home</title>
     <meta charset = "utf-8">
+    <style>
+        
+        .upper_link {
+            color: rgba(33, 33, 33, 0.8);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        #contact{
+            list-style-type: none;
+        }
+        .contact{
+            color: rgba(0, 0, 0, 0.8);
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 
 <body>
-    <a href = "">00001001</a>
-
-    <a href = "">Home</a>
-    <a href = "">Info</a>
-    <a href = "">Contact</a>
-
-    <h1>WELCOME</h1>
-    <h2>Developer NINE's Page</h2>
+    <div id = "upper_grid">
+    <a href = "index.html" class = "upper_link">00001001</a>
+    <div>
+        <a href = "home.html" class = "upper_link">Home</a>
+        <a href = "info.html" class = "upper_link">Info</a>
+        <a href = "contact.html" class = "upper_link">Contact</a>
+    </div>
+    </div>
+    <h1>Developer NINE's Page</h1>
 
     Contact Me
-    <ul style = "list-style-type: none;">
-        <li><a href = "">E-mail</a></li>
-        <li><a href = "">Blog</a></li>
-        <li><a href = "">Github</a></li>
+    <ul id = "contact">
+        <li><a href = "" class = "contact">E-mail</a></li>
+        <li><a href = "" class = "contact">Blog</a></li>
+        <li><a href = "" class = "contact">Github</a></li>
     </ul>
 </body>
 </html>

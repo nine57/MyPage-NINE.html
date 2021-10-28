@@ -4,11 +4,18 @@
     <title>00001001 - Home</title>
     <meta charset = "utf-8">
     <style>
-        
-        .upper_link {
+        #index_link{
             color: rgba(33, 33, 33, 0.8);
             text-decoration: none;
             font-weight: 700;
+            text-align: left;
+            margin-left: 30px;
+        }
+        .upper_link{
+            color: rgba(33, 33, 33, 0.8);
+            text-decoration: none;
+            font-weight: 700;
+            margin-right: 30px;
         }
         #contact{
             list-style-type: none;
@@ -17,13 +24,32 @@
             color: rgba(0, 0, 0, 0.8);
             text-decoration: none;
         }
+        .upper_grid{
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            text-align: right;
+            margin-top: 30px;
+        }
+        h1{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        #body{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 500px;
+            margin-top: 100px;
+            border: 3px thick black;
+            text-align: center;
+            font-weight:bold;
+        }
     </style>
 </head>
 
 
 <body>
-    <div id = "upper_grid">
-    <a href = "index.html" class = "upper_link">00001001</a>
+    <div class = "upper_grid">
+    <a href = "index.html" id = "index_link">00001001</a>
     <div>
         <a href = "home.html" class = "upper_link">Home</a>
         <a href = "info.html" class = "upper_link">Info</a>
@@ -31,12 +57,24 @@
     </div>
     </div>
     <h1>Developer NINE's Page</h1>
-
-    Contact Me
-    <ul id = "contact">
-        <li><a href = "" class = "contact">E-mail</a></li>
-        <li><a href = "" class = "contact">Blog</a></li>
-        <li><a href = "" class = "contact">Github</a></li>
-    </ul>
+    <div id = "body">
+        <div>
+            Blank    
+        </div>
+        <div>
+            Blank    
+        </div>
+        <div>
+            Blank    
+        </div>
+    </div>
+    <div id = "contact">
+        Contact Me
+        <ul style = "list-style-type: none;">
+            <li><a href = "" class = "contact">E-mail</a></li>
+            <li><a href = "" class = "contact">Blog</a></li>
+            <li><a href = "" class = "contact">Github</a></li>
+        </ul>
+    </div>  
 </body>
 </html>

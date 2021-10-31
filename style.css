@@ -186,14 +186,14 @@ a{
     vertical-align: middle;
 }
 
-/* temp css */
+/* Memory css */
 #main4{
-    background-image: url(https://raw.githubusercontent.com/nine57/MyPage-NINE.html/main/temp.jpg);
+    background-color: gray;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     font-family: 'Architects Daughter', cursive;
 }
 #top-code4{

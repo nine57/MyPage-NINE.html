@@ -10,16 +10,38 @@ a{
     color: inherit;
     text-decoration: none;
 }
-
-/* index css */
-#main{
-    background-image: url(https://nine57.github.io/MyPage-NINE.html/main.jpg);
+.main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     width: 100vw;
     height: 100vh;
     font-family: 'Architects Daughter', cursive;
+}
+.top-code{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: bold;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+.top-list{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: right;
+    float: right;
+    width: 50%;
+    box-sizing: border-box;   
+}
+.top-list a{
+    padding-right:50px;
+}
+
+/* index css */
+#main1{
+    background-image: url(https://nine57.github.io/MyPage-NINE.html/main.jpg);
 }
 #contents{
     position: absolute;
@@ -39,12 +61,8 @@ a{
     color: rgba(0, 0, 49, 0.85);
     font-size: 50px;
 }
-#top-code {
+#top-code1{
     color: rgba(250, 121, 121, 0.6);
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
 }
 /* 80% */
 @media(max-width:1400px){
@@ -82,34 +100,12 @@ a{
 /* about_me css */
 #main2{
     background-image: url(https://raw.githubusercontent.com/nine57/MyPage-NINE.html/main/about%20page.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Architects Daughter', cursive;
 }
 #top-code2{
     color: rgba(179, 231, 255, 0.5);
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    font-weight: bold;
 }
 #top-list2{
     color: rgba(179, 231, 255, 0.5);
-    font-size: 20px;
-    padding-top: 20px;
-    text-align: right;
-    float: right;
-    width: 50%;
-    box-sizing: border-box;
-}
-#top-list2 a{
-    padding-right:50px;
 }
 #para{
     color:rgba(204, 239, 255, 0.85);
@@ -122,25 +118,12 @@ a{
     font-size: 28px;
 }
 
-/* contact me css */
+/* contact css */
 #main3{
     background-image: url(https://raw.githubusercontent.com/nine57/MyPage-NINE.html/main/contact%20page.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Architects Daughter', cursive;
 }
 #top-code3{
     color: rgba(151, 123, 44, 0.85);
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    font-weight: bold;
 }
 #top-list3{
     color: rgba(151, 123, 44, 0.85);
@@ -150,9 +133,6 @@ a{
     float: right;
     width: 50%;
     box-sizing: border-box;
-}
-#top-list3 a{
-    padding-right:50px;
 }
 #contact{
     color: rgba(143, 143, 143, 0.85);
@@ -188,35 +168,14 @@ a{
 
 /* Memory css */
 #main4{
-    background-color: gray;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    font-family: 'Architects Daughter', cursive;
+    background-image: url(https://raw.githubusercontent.com/nine57/MyPage-NINE.html/main/memory%20page.jpg);
+    height: inherit;
 }
 #top-code4{
     color:black;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    font-weight: bold;
 }
 #top-list4{
     color:black;
-    font-size: 20px;
-    padding-top: 20px;
-    text-align: right;
-    float: right;
-    width: 50%;
-    box-sizing: border-box;
-}
-#top-list4 a{
-    padding-right:50px;
 }
 #para4{
     color:black;
